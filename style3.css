@@ -1,0 +1,247 @@
+body{font-family: sans-serif;}
+
+.navbar{ display: flex;justify-content: space-between;position: sticky; background: white;}
+.navbar { margin: 20px 0;}
+.doc { display: inline; margin-left: 10px;
+float: left;}
+a{ color: black }
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+}
+li a {
+    display: block;
+    color:gray;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1{
+    font-size: clamp(20px, 2.5vw, 36px);
+  color: rgba(rgb(128, 116, 116), 0.8);
+  text-align: start;
+  font-style: italic;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    width: 40%;
+    color: gray;
+    margin:20px 10px;
+    font-family: 'Fira Code', monospace;
+}
+h2 {
+  font-size: clamp(20px, 2.5vw, 36px);
+  color: rgba(#fff, 0.8);
+  font-weight: 400;
+  text-align: center;
+  font-style: oblique;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+li {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: min(50vw, 350px);
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: #9b9dad;
+  padding-bottom: 1.5rem;
+  font-size: clamp(18px, 2.5vw, 22px);
+  box-shadow: -10px 0 30px 0 rgba(white, 0.25);
+  margin-left: -4px;
+}
+
+.introduction {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.most{
+    display: flex;
+    justify-content: space-between;
+}
+.c { 
+
+    display: inline-block;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    width: 40%;
+    color: gray;
+    margin:20px 10px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+.d{
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.responsive {
+  padding: 0 6px;
+  float: inherit;
+  width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 60%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+  .red  {
+    font-family: "Source Sans Pro";
+    color: #333333;
+    padding-top: 50px;
+  }
+  
+  details {
+    position: relative;
+  }
+  
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  details summary::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=")
+      no-repeat 50% 50% / 1em 1em;
+    width: 1.5em;
+    height: 1.5em;
+    transition: transform 0.1s linear;
+  }
+  
+  summary {
+    width: 100%;
+    padding: 20px;
+    padding-left: 25px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  summary:hover {
+    color: #007bff;
+  }
+  
+  summary:focus {
+    outline: none;
+  }
+  
+  details[open] summary:before {
+    transform: rotate(90deg);
+  }
+  
+  details[open] > summary {
+    color: #007bff;
+  }
+  
+  details[open] > summary ~ * {
+    animation: open 1s ease;
+  }
+  
+  p.source {
+    padding-top: 50px;
+    font-size: 0.75em;
+    text-align: center;
+  }
+  
+  @keyframes open {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  .lk {
+    text-align: center;
+    padding: 50px ;
+}
